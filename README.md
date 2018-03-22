@@ -3,7 +3,7 @@
 ![](https://raw.githubusercontent.com/hudara/cifar-10/first/images/cifar-10.png)
 
 ## Overview
-In this document I will explain in details my approach of solving the CIFAR-10 challenge.
+In this document I will explain in details my approach of solving the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) challenge.
 I will describe in details the problem, the solution, and describe the way I choose the different parameters.
 I will begin with the bottom line: Using my own personal laptop machine which is a Window-7 64-bit with 8GB of RAM, and Intel Core i5-5300U CPU of 2.30 GHZ, I have successfully matched 70.41% of the images in about 53 minutes.
 
