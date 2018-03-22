@@ -1,4 +1,4 @@
-# cifar-10
+# CIFAR-10
 
 ![](https://raw.githubusercontent.com/hudara/cifar-10/first/images/cifar-10.png)
 
