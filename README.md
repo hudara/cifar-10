@@ -46,7 +46,7 @@ At the beginning I thought that it is important to filter the noise out of these
 
 I guess that since these images are small, every pixel counts, and since in any of the above method, there is a certain amount of information lost, this leads degradation in the success rate. Therefore, I have decided not to implement this phase at all.
 
-### Feature Extractin
+### Feature Extraction
 - Input: Array of 50,000 images
 - Output: Array of 50,000 vectors of 5832 components each, received by HOG algorithm.
 
