@@ -5,7 +5,7 @@
 ## Overview
 In this document I will explain in details my approach of solving the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) challenge.
 I will describe in details the problem, the solution, and describe the way I choose the different parameters.
-I will begin with the bottom line: Using my own personal laptop machine which is a Window-7 64-bit with 8GB of RAM, and Intel Core i5-5300U CPU of 2.30 GHZ, I have successfully matched 70.41% of the images in about 53 minutes.
+I will begin with the bottom line: Using my own personal laptop machine which is a Windows-7 64-bit with 8GB of RAM, and Intel Core i5-5300U CPU of 2.30 GHZ, I have successfully matched 70.41% of the images in about 53 minutes.
 
 ## The problem
 CIFAR-10 is a dataset consist of 60,000 32x32 color images in 10 classes, with 6,000 images per class. There are 50,000 training images and 10,000 test images. The test images are composed of 1000 randomly selected images from each class. The training images contains 5,000 images from each class in random order.
@@ -44,7 +44,7 @@ At the beginning I thought that it is important to filter the noise out of these
 - Using the image received after applying the “Canny Edge detector” algorithm (tried with several values of “min” and “max” thresholds)
 - Using the “Harris corner detector”, and feed these corners to the next phase.
 
-I guess that since these images are small, every pixel counts, and since in any of the above method, there is a certain amount of information lost, this leads degradation in the success rate. Therefore, I have decided not to implement this phase at all.
+I guess that since these images are small, every pixel counts, and since in any of the above method, there is a certain amount of information lost, this leads to degradation in the success rate. Therefore, I have decided not to implement this phase at all.
 
 ### Feature Extraction
 - Input: Array of 50,000 images
