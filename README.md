@@ -1,6 +1,6 @@
 # CIFAR-10
 
-![](https://raw.githubusercontent.com/hudara/cifar-10/first/images/cifar-10.png)
+![](https://raw.githubusercontent.com/hudara/cifar-10/images/cifar-10.png)
 
 ## Overview
 In this document I will explain in details my approach of solving the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) challenge.
@@ -16,7 +16,7 @@ The goal of this competition, is to build an algorithm which takes a random imag
 Basically we are talking about a classifier algorithm. This algorithm should use the training images to build a classifier model, and then apply the test images on this model to test how good this model really is.
 The following chart shows the building block of the algorithm:
 
-![](https://raw.githubusercontent.com/hudara/cifar-10/first/images/algorithm.png)
+![](https://raw.githubusercontent.com/hudara/cifar-10/images/algorithm.png)
 
 #### Training Phase
 1. **Training Image:** The algorithm start with a set of 50,000 classified training images.
@@ -75,7 +75,7 @@ np.cumsum(pcs.explained_variance_ration_)
 ```
 And got the following chart:
 
-![](https://raw.githubusercontent.com/hudara/cifar-10/first/images/pca.png)
+![](https://raw.githubusercontent.com/hudara/cifar-10/images/pca.png)
 
 The meaning of this chart, is that most of the information is held in the first 2000-2500 components. I have tried with several numbers (1500, 2000, 2500 and 3000) and found that 3000 component gave the best results. So in this phase, we took a 5,832 dimension vectors, and transformed them into a 3,000 dimension vectors.
 
