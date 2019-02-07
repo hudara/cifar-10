@@ -1,6 +1,6 @@
 # CIFAR-10
 
-![](https://github.com/hudara/cifar-10/blob/master/images/cifar-10.png)
+![](/images/cifar-10.png)
 
 ## Overview
 In this document I will explain in details my approach of solving the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) challenge.
